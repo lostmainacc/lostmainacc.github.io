@@ -6,7 +6,6 @@
     <title>Lix - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* Zmienne CSS dla spójności kolorów */
         :root {
             --dark-bg: #121212;
             --darker-bg: #0a0a0a;
@@ -17,7 +16,6 @@
             --text-secondary: #aaaaaa;
         }
 
-        /* Reset i podstawowe style */
         * {
             margin: 0;
             padding: 0;
@@ -35,7 +33,6 @@
             line-height: 1.6;
         }
 
-        /* Sekcje ogólne */
         section {
             padding: 5rem 2rem;
             min-height: 100vh;
@@ -67,7 +64,6 @@
             border-radius: 2px;
         }
 
-        /* Nawigacja */
         nav {
             position: fixed;
             top: 0;
@@ -135,7 +131,6 @@
             width: 100%;
         }
 
-        /* Strona główna - Hero */
         #home {
             background: linear-gradient(to bottom, var(--darker-bg), var(--dark-bg));
             text-align: center;
@@ -189,8 +184,6 @@
             transform: translateY(-3px);
             box-shadow: 0 10px 20px rgba(126, 34, 206, 0.3);
         }
-
-        /* O mnie */
         #about {
             background-color: var(--dark-bg);
         }
@@ -233,8 +226,6 @@
             background: linear-gradient(90deg, var(--accent), var(--accent-secondary));
             color: var(--dark-bg);
         }
-
-        /* Umiejętności */
         #skills {
             background-color: var(--darker-bg);
         }
@@ -272,8 +263,6 @@
         .skill-category p {
             color: var(--text-secondary);
         }
-
-        /* Portfolio */
         #portfolio {
             background-color: var(--dark-bg);
             text-align: center;
@@ -303,7 +292,6 @@
             margin: 0 auto;
         }
 
-        /* Kontakt */
         #contact {
             background-color: var(--darker-bg);
         }
@@ -383,7 +371,6 @@
             resize: vertical;
         }
 
-        /* Stopka */
         footer {
             background-color: var(--darker-bg);
             padding: 3rem 0;
@@ -420,8 +407,7 @@
             color: var(--text-secondary);
             font-size: 0.9rem;
         }
-
-        /* Responsywność */
+        
         @media (max-width: 992px) {
             .about-content, .contact-content {
                 grid-template-columns: 1fr;
